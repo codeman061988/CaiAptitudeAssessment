@@ -1,9 +1,9 @@
 # CaiAptitudeAssessment
 Trio of coding challenges done for a prospective employer.
 
-1.  For the first task, I write a console application which included an onscreen menu of options, which correspond to each of the required challenges of task 1
+1.  For the first task, I wrote a console application which included an onscreen menu of options, which correspond to each of the required challenges of task 1
 2.  For the second task, I wrote a basic Web Form, who's events trigger the calling of Spotify's public APIs to search for a given music artist and their collection of albums, all of which are returned and displayed in a data grid 
-3. For the third task, I write another console application, which simply describes the problem and displays the on-screen solution
+3.  For the third task, I wrote another console application, which simply describes the problem and displays the on-screen solution
 
 ### Task 1  - Basic Problem Solving
 Using your favorite .NET programming language, please solve the following logic problems in a single program (executable): 
@@ -11,29 +11,29 @@ Using your favorite .NET programming language, please solve the following logic 
 - Take any sentence in a String and reverse every word:
 
    Example Input:
- “The quick brown fox jumps over the lazy dog”
+ `The quick brown fox jumps over the lazy dog`
 
  Example Result:
-“dog lazy the over jumps fox brown quick The”
+`dog lazy the over jumps fox brown quick The`
 
 - Define two Integer (32bit) variables and values of X=72 and Y=59, now swap the values of X and Y without declaring any new variables, use only the two existing X and Y variables.
 
  Example Input:
- X = 72
- Y = 59
+ `X = 72`
+ `Y = 59`
 
  Example Result:
- X = 59
- Y = 72
+ `X = 59`
+ `Y = 72`
 
-- Find the pattern “[Number1, Number2]” in any given String and get the Integer (32bit) values for Number1 and Number2.
+- Find the pattern `[Number1, Number2]` in any given String and get the Integer (32bit) values for Number1 and Number2.
 
  Example Input:
-“Foo Bar [45,66] Bash”
+`Foo Bar [45,66] Bash`
 
  Example Result:
- Number1 = 45
- Number2 = 66
+ `Number1 = 45`
+ `Number2 = 66`
 
 ### Task 2  - Consuming a public web service
 
@@ -60,7 +60,7 @@ Using your favorite .NET programming language, decrypt a TripleDES Encrypted, an
 Encryption Algorithm: `TripleDES`
 TripleDES KeySize: `128`
 TripleDES Key: `“0123456789ABCDEF”`
-TripleDES Initilzation Vector (IV):`“ABCDEFGH”`
+TripleDES Initialization Vector (IV):`“ABCDEFGH”`
 
 Encrypted and Base64 Encoded Input:
 `ABvAsOKcGXqc5uQ4O5Z53isJaH31Pa8+PeddljE4mSU=`
